@@ -1,0 +1,57 @@
+
+.card {
+  margin-bottom: 20px;
+  height: 100%; 
+}
+
+.card-body {
+  height: 100%; 
+}
+
+
+#carrito button {
+  margin-right: 10px; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+.card-title {
+  font-size: 1.2rem; 
+}
+
+.card-text {
+  color: #666; 
+}
+
+
+#carrito {
+  position: fixed;
+  top: 80px; 
+  right: 20px; 
+  width: 300px; 
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100; 
+}
+
+#carrito h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#cont-cart {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cont-cart li {
+  margin-bottom: 5px;
+}
+
+#total-cart {
+  font-weight: bold;
+}
